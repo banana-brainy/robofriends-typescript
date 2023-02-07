@@ -6,12 +6,12 @@ import './App.css'
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 
-interface IAppStateProps {
+interface IAppState {
     robots: typeof robotsArray;
     searchfield: string
 }
 
-class App extends Component <{title: string}, IAppStateProps> {
+class App extends Component <{title: string}, IAppState> {
     constructor(props: {title: string}) {
         super(props)
         this.state = {
