@@ -1,1 +1,1 @@
-I have made my app but sadly you can't see it
+I have made my first app on Typescript!
